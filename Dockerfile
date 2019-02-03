@@ -8,7 +8,7 @@ curl https://minecraft.azureedge.net/bin-linux/bedrock-server-1.8.1.2.zip -o bed
 unzip bedrock.zip -d bedrock && \
 rm bedrock.zip
 
-WORDIR /bedrock
+WORKDIR /bedrock
 
 ENV LD_LIBRARY_PATH=.
 
